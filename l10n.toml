@@ -1,0 +1,38 @@
+basepath = "."
+
+locales = [
+    "cy",
+    "de",
+    "en-CA",
+    "en-GB",
+    "es-AR",
+    "es-CL",
+    "es-ES",
+    "es-MX",
+    "fr",
+    "it",
+    "ja",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+]
+
+[[paths]]
+    reference = "en-US/*.ftl"
+    l10n = "{locale}/*.ftl"
+
+[[paths]]
+    reference = "en-US/subset/travel.ftl"
+    l10n = "{locale}/subset/travel.ftl"
+    locales = [
+        "en-CA",
+        "en-GB"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/wrexhamafc.ftl"
+    l10n = "{locale}/subset/wrexhamafc.ftl"
+    locales = [
+        "cy",
+        "en-GB"
+    ]
