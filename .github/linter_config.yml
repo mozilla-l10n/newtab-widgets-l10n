@@ -1,0 +1,34 @@
+---
+# Configuration for moz-fluent-linter
+# https://github.com/mozilla-l10n/moz-fluent-linter
+
+# Check brand names: hard-coded brands should use terms instead
+CO01:
+  enabled: true
+  brands:
+    - Firefox
+    - Mozilla
+  exclusions:
+    files: []
+    messages: []
+# Identifiers must be lowercase, with dashes
+ID01:
+  enabled: true
+  exclusions:
+    files: []
+    messages: []
+# Minimum length for identifiers
+ID02:
+  enabled: true
+  min_length: 7
+# Typography checks (quotes, ellipsis, apostrophes)
+TE01:
+  enabled: true
+TE02:
+  enabled: true
+TE03:
+  enabled: true
+TE04:
+  enabled: true
+TE05:
+  enabled: true

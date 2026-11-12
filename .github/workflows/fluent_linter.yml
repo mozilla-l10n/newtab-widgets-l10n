@@ -1,0 +1,30 @@
+name: Lint en-US Fluent files
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "en-US/**.ftl"
+      - ".github/linter_config.yml"
+      - ".github/requirements.txt"
+      - ".github/workflows/fluent_linter.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: ".github/requirements.txt"
+      - name: Install Python dependencies
+        run: pip install -r .github/requirements.txt
+      - name: Lint en-US files
+        run: moz-fluent-lint ./en-US --config .github/linter_config.yml
