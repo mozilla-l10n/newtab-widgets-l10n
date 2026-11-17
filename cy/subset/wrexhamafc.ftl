@@ -17,3 +17,18 @@ wrexhamafc-onboarding-heading = Cadw golwg ar Dîm Pel-droed Wrecsam.
 # One line of about 35 characters at the medium size.
 wrexhamafc-onboarding-body = Cael diweddariadau gemau byw a mwy.
 wrexhamafc-onboarding-button = Cychwyn arni
+# Accessible name for the tab bar that switches between the widget's views.
+wrexhamafc-tabs-legend = Gweld
+# “Matches” refers to the club's latest or next games
+wrexhamafc-tab-matches = Gemau
+wrexhamafc-tab-table = Tabl
+# “Fixtures” refers to the club's prior and upcoming scheduled matches, limited
+# to 5 listed matches total.
+wrexhamafc-tab-fixtures = Dyddiadau Gemau
+wrexhamafc-competition-efl-championship = Pencampwriaeth EFL
+# FA stands for Football Association, don't translate
+wrexhamafc-competition-fa-cup = Cwpan yr FA
+# Status badges on the match card. “LIVE” is shown in capitals in the design.
+wrexhamafc-badge-live = YN FYW
+wrexhamafc-badge-half-time = Hanner amser
+wrexhamafc-badge-full-time = Llawn amser
