@@ -32,3 +32,7 @@ wrexhamafc-competition-fa-cup = Cwpan yr FA
 wrexhamafc-badge-live = YN FYW
 wrexhamafc-badge-half-time = Hanner amser
 wrexhamafc-badge-full-time = Llawn amser
+# Kick-off hasn’t happened at the scheduled time.
+wrexhamafc-badge-delayed = Rhedeg yn hwyr
+# Play has stopped and it’s not known when it will resume.
+wrexhamafc-badge-suspended = Wedi'i atal
