@@ -31,8 +31,10 @@ wrexhamafc-competition-fa-cup = Cwpan yr FA
 # Status badges on the match card. “LIVE” is shown in capitals in the design.
 wrexhamafc-badge-live = YN FYW
 wrexhamafc-badge-half-time = Hanner amser
-wrexhamafc-badge-full-time = Llawn amser
+wrexhamafc-badge-full-time = Amser llawn
 # Kick-off hasn’t happened at the scheduled time.
-wrexhamafc-badge-delayed = Rhedeg yn hwyr
+wrexhamafc-badge-delayed = Hwyr
 # Play has stopped and it’s not known when it will resume.
-wrexhamafc-badge-suspended = Wedi'i atal
+wrexhamafc-badge-suspended = Oedi
+# The match has moved to a later date.
+wrexhamafc-badge-postponed = Gohiriwyd
