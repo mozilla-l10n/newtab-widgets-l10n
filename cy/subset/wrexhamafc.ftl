@@ -39,6 +39,8 @@ wrexhamafc-badge-suspended = Oedi
 # The match has moved to a later date.
 wrexhamafc-badge-postponed = Gohiriwyd
 wrexhamafc-badge-canceled = Canslwyd
+# Shown next to the badge in cup matches that went to extra time.
+wrexhamafc-period-extra-time = Amser ychwanegol
 # Shown next to the badge in cup matches decided by a penalty shootout.
 wrexhamafc-period-penalties = Cic o'r smotyn
 # Match clock and goal times, in minutes.
@@ -57,6 +59,16 @@ wrexhamafc-clock-half-time = HA
 wrexhamafc-error-matches = Methu â dangos gwybodaeth cyfatebol ar hyn o bryd
 wrexhamafc-error-retry = Ceisiwch adnewyddu neu dewch nôl yn nes ymlaen.
 wrexhamafc-error-refresh-button = Adnewyddu
+# Shown when there's no current or upcoming match to show. TODO(copy): the design marks this “to be reviewed”.
+wrexhamafc-no-upcoming = Dim gemau i ddod ar hyn o bryd
+wrexhamafc-no-upcoming-body = Dewch nôl nes 'mlaen
+# Shown when the league table can't be loaded. One line of about 40 characters at the large size.
+wrexhamafc-error-standings = Methu dangos safleoedd Pencampwriaeth EFL ar hyn o bryd
+# Shown on the Fixtures tab when match data can't be loaded.
+wrexhamafc-error-results = Methu dangos canlyniadau ar hyn o bryd
+# Screen reader name for the scrolling league table.
+wrexhamafc-table-region =
+    .aria-label = Tabl Pencampwriaeth EFL
 # Fixtures tab. “Last results” opens to show recent results.
 wrexhamafc-fixtures-results = Canlyniadau diweddaraf
 wrexhamafc-fixtures-upcoming = I Ddod
