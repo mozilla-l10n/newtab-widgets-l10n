@@ -38,3 +38,25 @@ wrexhamafc-badge-delayed = Hwyr
 wrexhamafc-badge-suspended = Oedi
 # The match has moved to a later date.
 wrexhamafc-badge-postponed = Gohiriwyd
+wrexhamafc-badge-canceled = Canslwyd
+# Shown next to the badge in cup matches decided by a penalty shootout.
+wrexhamafc-period-penalties = Cic o'r smotyn
+# Match clock and goal times, in minutes.
+# Variables:
+#   $minute (Number) - minutes played, e.g. 60 for “60’”
+wrexhamafc-clock-minute = { $munud }’
+# Stoppage time, e.g. “90+3’”.
+# Variables:
+#   $minute (Number) - the regular minute, e.g. 90
+#   $extra (Number) - stoppage minutes played, e.g. 3
+wrexhamafc-clock-stoppage = { $minute }+{ $extra }’
+# Abbreviation for half-time, shown in place of the clock.
+wrexhamafc-clock-half-time = HA
+# Shown when match data can't be loaded. At the medium size the heading and the message each get one
+# line of about 40 characters.
+wrexhamafc-error-matches = Methu â dangos gwybodaeth cyfatebol ar hyn o bryd
+wrexhamafc-error-retry = Ceisiwch adnewyddu neu dewch nôl yn nes ymlaen.
+wrexhamafc-error-refresh-button = Adnewyddu
+# Fixtures tab. “Last results” opens to show recent results.
+wrexhamafc-fixtures-results = Canlyniadau diweddaraf
+wrexhamafc-fixtures-upcoming = I Ddod
