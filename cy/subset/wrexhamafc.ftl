@@ -46,7 +46,7 @@ wrexhamafc-period-penalties = Cic o'r smotyn
 # Match clock and goal times, in minutes.
 # Variables:
 #   $minute (Number) - minutes played, e.g. 60 for “60’”
-wrexhamafc-clock-minute = { $munud }’
+wrexhamafc-clock-minute = { $minute }’
 # Stoppage time, e.g. “90+3’”.
 # Variables:
 #   $minute (Number) - the regular minute, e.g. 90
