@@ -24,7 +24,7 @@ wrexhamafc-tab-matches = Gemau
 wrexhamafc-tab-table = Tabl
 # “Fixtures” refers to the club's prior and upcoming scheduled matches, limited
 # to 5 listed matches total.
-wrexhamafc-tab-fixtures = Dyddiadau Gemau
+wrexhamafc-tab-fixtures = Gemau i Ddod
 wrexhamafc-competition-efl-championship = Pencampwriaeth EFL
 # FA stands for Football Association, don't translate
 wrexhamafc-competition-fa-cup = Cwpan yr FA
@@ -56,12 +56,12 @@ wrexhamafc-clock-stoppage = { $minute }+{ $extra }’
 wrexhamafc-clock-half-time = HA
 # Shown when match data can't be loaded. At the medium size the heading and the message each get one
 # line of about 40 characters.
-wrexhamafc-error-matches = Methu â dangos gwybodaeth cyfatebol ar hyn o bryd
+wrexhamafc-error-matches = Methu dangos gwybodaeth gyfatebol ar hyn o bryd
 wrexhamafc-error-retry = Ceisiwch adnewyddu neu dewch nôl yn nes ymlaen.
 wrexhamafc-error-refresh-button = Adnewyddu
 # Shown when there's no current or upcoming match to show. TODO(copy): the design marks this “to be reviewed”.
 wrexhamafc-no-upcoming = Dim gemau i ddod ar hyn o bryd
-wrexhamafc-no-upcoming-body = Dewch nôl nes 'mlaen
+wrexhamafc-no-upcoming-body = Dewch nôl nes ymlaen
 # Shown when the league table can't be loaded. One line of about 40 characters at the large size.
 wrexhamafc-error-standings = Methu dangos safleoedd Pencampwriaeth EFL ar hyn o bryd
 # Shown on the Fixtures tab when match data can't be loaded.
@@ -71,7 +71,7 @@ wrexhamafc-table-region =
     .aria-label = Tabl Pencampwriaeth EFL
 # Fixtures tab. “Last results” opens to show recent results.
 wrexhamafc-fixtures-results = Canlyniadau diweddaraf
-wrexhamafc-fixtures-upcoming = I Ddod
+wrexhamafc-fixtures-upcoming = I ddod
 # Screen reader name for the scrolling list of results and fixtures.
 wrexhamafc-fixtures-region =
     .aria-label = Canlyniadau a gemau i ddod
