@@ -13,7 +13,7 @@ wrexhamafc-loading = Yn llwytho manylion y gêm…
 # Announced to screen readers while the league table loads.
 wrexhamafc-loading-standings = Yn llwytho'r tabl…
 # First-run card. At the medium size the heading and the body each get a single line of about 35 characters.
-wrexhamafc-onboarding-heading = Cadw golwg ar Dîm Pel-droed Wrecsam.
+wrexhamafc-onboarding-heading = Cadw golwg ar CPD Wrecsam.
 # One line of about 35 characters at the medium size.
 wrexhamafc-onboarding-body = Cael diweddariadau gemau byw a mwy.
 wrexhamafc-onboarding-button = Cychwyn arni
@@ -60,3 +60,22 @@ wrexhamafc-error-refresh-button = Adnewyddu
 # Fixtures tab. “Last results” opens to show recent results.
 wrexhamafc-fixtures-results = Canlyniadau diweddaraf
 wrexhamafc-fixtures-upcoming = I Ddod
+# Screen reader name for the scrolling list of results and fixtures.
+wrexhamafc-fixtures-region =
+    .aria-label = Canlyniadau a gemau i ddod
+# League table column headings, abbreviated as on most football tables. The aria-label is what screen readers say.
+wrexhamafc-table-club = Clwb
+wrexhamafc-table-played = C
+    .aria-label = Chwaraewyd
+wrexhamafc-table-goal-difference = GG
+    .aria-label = Gwahaniaeth goliau
+wrexhamafc-table-points = Pnt
+    .aria-label = Pwyntiau
+# Links open the match page on wrexhamafc.co.uk in a new tab.
+wrexhamafc-link-match-details = Manylion y gêm
+wrexhamafc-link-live-match-centre = Canolfan gemau byw
+wrexhamafc-link-match-report = Adroddiad ar y gêm
+# Opens the club’s fixtures and table page with the standings of the teams in the club’s league.
+wrexhamafc-link-full-table = Gweld y tabl llawn
+# Opens the club’s fixtures page, with all of its past and upcoming matches.
+wrexhamafc-link-all-fixtures = Gweld yr holl gemau
