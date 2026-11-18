@@ -9,7 +9,7 @@
 ### wrexhamafc-.
 
 # Announced to screen readers while match data loads.
-wrexhamafc-loading = Yn llwytho manylion y gêm…
+wrexhamafc-loading = Llwytho manylion y gêm…
 # Announced to screen readers while the league table loads.
 wrexhamafc-loading-standings = Yn llwytho'r tabl…
 # First-run card. At the medium size the heading and the body each get a single line of about 35 characters.
@@ -70,7 +70,7 @@ wrexhamafc-error-results = Methu dangos canlyniadau ar hyn o bryd
 wrexhamafc-table-region =
     .aria-label = Tabl Pencampwriaeth EFL
 # Fixtures tab. “Last results” opens to show recent results.
-wrexhamafc-fixtures-results = Canlyniadau diweddaraf
+wrexhamafc-fixtures-results = Canlyniadau diwethaf
 wrexhamafc-fixtures-upcoming = I ddod
 # Screen reader name for the scrolling list of results and fixtures.
 wrexhamafc-fixtures-region =
@@ -86,7 +86,7 @@ wrexhamafc-table-points = Pnt
 # Links open the match page on wrexhamafc.co.uk in a new tab.
 wrexhamafc-link-match-details = Manylion y gêm
 wrexhamafc-link-live-match-centre = Canolfan gemau byw
-wrexhamafc-link-match-report = Adroddiad ar y gêm
+wrexhamafc-link-match-report = Adroddiad gêm
 # Opens the club’s fixtures and table page with the standings of the teams in the club’s league.
 wrexhamafc-link-full-table = Gweld y tabl llawn
 # Opens the club’s fixtures page, with all of its past and upcoming matches.
